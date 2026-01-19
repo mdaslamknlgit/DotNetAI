@@ -1,32 +1,39 @@
+using DotNetAI.AI.Abstractions;
+using DotNetAI.Application.Orchestrators;
+using DotNetAI.Infrastructure.AiClients;
+using DotNetAI.Infrastructure.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Controllers
 builder.Services.AddControllers();
 
-// OpenAPI (existing)
+// OpenAPI + Swagger
 builder.Services.AddOpenApi();
-
-// Swagger (added)
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Bind OpenAI options from configuration
+builder.Services.Configure<OpenAiOptions>(
+    builder.Configuration.GetSection("OpenAI")
+);
+
+// HttpClient for OpenAI
+builder.Services.AddHttpClient<IAiClient, OpenAiClient>();
+
+// Application services
+builder.Services.AddScoped<AiOrchestrator>();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    // OpenAPI JSON
     app.MapOpenApi();
-
-    // Swagger UI
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();

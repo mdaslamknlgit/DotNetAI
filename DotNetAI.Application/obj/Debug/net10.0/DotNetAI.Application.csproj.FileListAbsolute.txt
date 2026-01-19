@@ -13,3 +13,4 @@ D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\obj\Debug\net10.0\DotNetAI.
 D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\obj\Debug\net10.0\refint\DotNetAI.Application.dll
 D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\obj\Debug\net10.0\DotNetAI.Application.pdb
 D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\obj\Debug\net10.0\ref\DotNetAI.Application.dll
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\obj\Debug\net10.0\DotNetAI.Application.sourcelink.json

@@ -15,12 +15,10 @@ public class AiOrchestrator
 
     public AiResponse Handle(string userInput)
     {
-        var request = new AiRequest
+        var result = _aiClient.Execute(new AiRequest
         {
             Prompt = userInput
-        };
-
-        var result = _aiClient.Execute(request);
+        });
 
         return new AiResponse
         {

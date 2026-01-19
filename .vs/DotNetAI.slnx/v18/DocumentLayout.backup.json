@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{201B7AF7-00AA-4870-A6C3-546F629B64CD}|DotNetAI.Blazor\\DotNetAI.Blazor.csproj|d:\\mdaslam\\net\\ai\\code\\dotnetai\\dotnetai.blazor\\components\\pages\\aichat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{201B7AF7-00AA-4870-A6C3-546F629B64CD}|DotNetAI.Blazor\\DotNetAI.Blazor.csproj|solutionrelative:dotnetai.blazor\\components\\pages\\aichat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{713421E6-ECE3-CE27-A42D-B00DE65174D4}|DotNetAI.Infrastructure\\DotNetAI.Infrastructure.csproj|d:\\mdaslam\\net\\ai\\code\\dotnetai\\dotnetai.infrastructure\\aiclients\\openaiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{713421E6-ECE3-CE27-A42D-B00DE65174D4}|DotNetAI.Infrastructure\\DotNetAI.Infrastructure.csproj|solutionrelative:dotnetai.infrastructure\\aiclients\\openaiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{201B7AF7-00AA-4870-A6C3-546F629B64CD}|DotNetAI.Blazor\\DotNetAI.Blazor.csproj|d:\\mdaslam\\net\\ai\\code\\dotnetai\\dotnetai.blazor\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{201B7AF7-00AA-4870-A6C3-546F629B64CD}|DotNetAI.Blazor\\DotNetAI.Blazor.csproj|solutionrelative:dotnetai.blazor\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{D7CC91BF-7869-8FA9-DE9C-8A8EF10691D4}|DotNetAI.Api\\DotNetAI.Api.csproj|d:\\mdaslam\\net\\ai\\code\\dotnetai\\dotnetai.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D7CC91BF-7869-8FA9-DE9C-8A8EF10691D4}|DotNetAI.Api\\DotNetAI.Api.csproj|solutionrelative:dotnetai.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2DFFBF-AC36-82C8-1618-85D433619FDC}|DotNetAI.Blazor\\DotNetAI.Blazor.csproj|d:\\mdaslam\\net\\ai\\code\\dotnetai\\dotnetai.blazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EB2DFFBF-AC36-82C8-1618-85D433619FDC}|DotNetAI.Blazor\\DotNetAI.Blazor.csproj|solutionrelative:dotnetai.blazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CC91BF-7869-8FA9-DE9C-8A8EF10691D4}|DotNetAI.Api\\DotNetAI.Api.csproj|d:\\mdaslam\\net\\ai\\code\\dotnetai\\dotnetai.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CC91BF-7869-8FA9-DE9C-8A8EF10691D4}|DotNetAI.Api\\DotNetAI.Api.csproj|solutionrelative:dotnetai.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{713421E6-ECE3-CE27-A42D-B00DE65174D4}|DotNetAI.Infrastructure\\DotNetAI.Infrastructure.csproj|d:\\mdaslam\\net\\ai\\code\\dotnetai\\dotnetai.infrastructure\\configuration\\openaioptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{713421E6-ECE3-CE27-A42D-B00DE65174D4}|DotNetAI.Infrastructure\\DotNetAI.Infrastructure.csproj|solutionrelative:dotnetai.infrastructure\\configuration\\openaioptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CC91BF-7869-8FA9-DE9C-8A8EF10691D4}|DotNetAI.Api\\DotNetAI.Api.csproj|d:\\mdaslam\\net\\ai\\code\\dotnetai\\dotnetai.api\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CC91BF-7869-8FA9-DE9C-8A8EF10691D4}|DotNetAI.Api\\DotNetAI.Api.csproj|solutionrelative:dotnetai.api\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF601142-573B-768C-36DB-D33ABC3284C0}|DotNetAI.Application\\DotNetAI.Application.csproj|d:\\mdaslam\\net\\ai\\code\\dotnetai\\dotnetai.application\\orchestrators\\aiorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF601142-573B-768C-36DB-D33ABC3284C0}|DotNetAI.Application\\DotNetAI.Application.csproj|solutionrelative:dotnetai.application\\orchestrators\\aiorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2DFFBF-AC36-82C8-1618-85D433619FDC}|DotNetAI.Blazor\\DotNetAI.Blazor.csproj|d:\\mdaslam\\net\\ai\\code\\dotnetai\\dotnetai.blazor\\components\\pages\\aichat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB2DFFBF-AC36-82C8-1618-85D433619FDC}|DotNetAI.Blazor\\DotNetAI.Blazor.csproj|solutionrelative:dotnetai.blazor\\components\\pages\\aichat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2DFFBF-AC36-82C8-1618-85D433619FDC}|DotNetAI.Blazor\\DotNetAI.Blazor.csproj|d:\\mdaslam\\net\\ai\\code\\dotnetai\\dotnetai.blazor\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EB2DFFBF-AC36-82C8-1618-85D433619FDC}|DotNetAI.Blazor\\DotNetAI.Blazor.csproj|solutionrelative:dotnetai.blazor\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 463,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +82,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Blazor\\appsettings.json",
+              "RelativeDocumentMoniker": "DotNetAI.Blazor\\appsettings.json",
+              "ToolTip": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Blazor\\appsettings.json",
+              "RelativeToolTip": "DotNetAI.Blazor\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-19T06:25:08.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OpenAiOptions.cs",
+              "DocumentMoniker": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Infrastructure\\Configuration\\OpenAiOptions.cs",
+              "RelativeDocumentMoniker": "DotNetAI.Infrastructure\\Configuration\\OpenAiOptions.cs",
+              "ToolTip": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Infrastructure\\Configuration\\OpenAiOptions.cs",
+              "RelativeToolTip": "DotNetAI.Infrastructure\\Configuration\\OpenAiOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:21:23.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AiController.cs",
+              "DocumentMoniker": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Api\\Controllers\\AiController.cs",
+              "RelativeDocumentMoniker": "DotNetAI.Api\\Controllers\\AiController.cs",
+              "ToolTip": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Api\\Controllers\\AiController.cs",
+              "RelativeToolTip": "DotNetAI.Api\\Controllers\\AiController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:12:12.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "DotNetAI.Api\\appsettings.json",
+              "ToolTip": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Api\\appsettings.json",
+              "RelativeToolTip": "DotNetAI.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-19T06:12:02.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Api\\Program.cs",
+              "RelativeDocumentMoniker": "DotNetAI.Api\\Program.cs",
+              "ToolTip": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Api\\Program.cs",
+              "RelativeToolTip": "DotNetAI.Api\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:11:58.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AiOrchestrator.cs",
+              "DocumentMoniker": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Application\\Orchestrators\\AiOrchestrator.cs",
+              "RelativeDocumentMoniker": "DotNetAI.Application\\Orchestrators\\AiOrchestrator.cs",
+              "ToolTip": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Application\\Orchestrators\\AiOrchestrator.cs",
+              "RelativeToolTip": "DotNetAI.Application\\Orchestrators\\AiOrchestrator.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:11:36.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OpenAiClient.cs",
+              "DocumentMoniker": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Infrastructure\\AiClients\\OpenAiClient.cs",
+              "RelativeDocumentMoniker": "DotNetAI.Infrastructure\\AiClients\\OpenAiClient.cs",
+              "ToolTip": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Infrastructure\\AiClients\\OpenAiClient.cs",
+              "RelativeToolTip": "DotNetAI.Infrastructure\\AiClients\\OpenAiClient.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAIwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T05:53:39.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "app.css",
               "DocumentMoniker": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Blazor\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "DotNetAI.Blazor\\wwwroot\\app.css",
@@ -67,13 +186,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "AiChat.razor",
               "DocumentMoniker": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Blazor\\Components\\Pages\\AiChat.razor",
               "RelativeDocumentMoniker": "DotNetAI.Blazor\\Components\\Pages\\AiChat.razor",
               "ToolTip": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Blazor\\Components\\Pages\\AiChat.razor",
               "RelativeToolTip": "DotNetAI.Blazor\\Components\\Pages\\AiChat.razor",
-              "ViewState": "AgIAACgAAAAAAAAAAAAIwEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAIwDoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-19T05:32:31.462Z",
               "EditorCaption": ""

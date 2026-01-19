@@ -13,3 +13,4 @@ D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Infrastructure\obj\Debug\net10.0\DotNet
 D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Infrastructure\obj\Debug\net10.0\refint\DotNetAI.Infrastructure.dll
 D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Infrastructure\obj\Debug\net10.0\DotNetAI.Infrastructure.pdb
 D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Infrastructure\obj\Debug\net10.0\ref\DotNetAI.Infrastructure.dll
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Infrastructure\obj\Debug\net10.0\DotNetAI.Infrastructure.sourcelink.json
