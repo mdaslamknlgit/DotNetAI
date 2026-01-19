@@ -15,20 +15,23 @@ public class LlmFactExtractor
 
     public Dictionary<string, string> Extract(string input)
     {
-        var prompt = $"""
+        var prompt = $$"""
         Extract personal facts from the following text.
 
         Rules:
         - Output ONLY valid JSON
         - Keys must be snake_case
         - Values must be strings
-        - If no facts found, return empty JSON: {{}}
+        - If no facts found, return empty JSON: {}
 
         Text:
-        {input}
+        {{input}}
 
         Example output:
-        {{ "name": "Mohammed Aslam", "father_name": "Ahmed" }}
+        {
+          "name": "Mohammed Aslam",
+          "father_name": "Ahmed"
+        }
         """;
 
         var response = _aiClient.Execute(new AiRequest
@@ -43,7 +46,6 @@ public class LlmFactExtractor
         }
         catch
         {
-            // If model misbehaves, ignore safely
             return new Dictionary<string, string>();
         }
     }
