@@ -36,28 +36,45 @@ public class OpenAiClient : IAiClient
         var json = JsonSerializer.Serialize(body);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-        var response = _http
-            .PostAsync("/v1/responses", content)
-            .Result;
-
+        var response = _http.PostAsync("/v1/responses", content).Result;
         var responseJson = response.Content.ReadAsStringAsync().Result;
 
         using var doc = JsonDocument.Parse(responseJson);
         var root = doc.RootElement;
 
-        // Correct Responses API parsing
-        if (root.TryGetProperty("output", out var outputArray) &&
-            outputArray.GetArrayLength() > 0 &&
-            outputArray[0].TryGetProperty("content", out var contentArray) &&
-            contentArray.GetArrayLength() > 0 &&
-            contentArray[0].TryGetProperty("text", out var text))
+        // 1️⃣ output_text (when available)
+        if (root.TryGetProperty("output_text", out var outputText))
         {
             return new AiResult
             {
-                Output = text.GetString() ?? string.Empty
+                Output = outputText.GetString() ?? string.Empty
             };
         }
 
-        throw new InvalidOperationException("Unable to extract text from OpenAI response");
+        // 2️⃣ output[].content[].text (most common)
+        if (root.TryGetProperty("output", out var outputArray))
+        {
+            foreach (var output in outputArray.EnumerateArray())
+            {
+                if (output.TryGetProperty("content", out var contentArray))
+                {
+                    foreach (var item in contentArray.EnumerateArray())
+                    {
+                        if (item.TryGetProperty("text", out var text))
+                        {
+                            return new AiResult
+                            {
+                                Output = text.GetString() ?? string.Empty
+                            };
+                        }
+                    }
+                }
+            }
+        }
+
+        // 3️⃣ Fallback: dump for debugging
+        throw new InvalidOperationException(
+            "Unable to extract text from OpenAI response:\n" + responseJson
+        );
     }
 }

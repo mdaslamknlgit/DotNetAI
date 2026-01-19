@@ -1,28 +1,24 @@
-﻿using DotNetAI.Application.Models;
-using DotNetAI.AI.Abstractions;
-using DotNetAI.AI.Abstractions.Models;
+﻿using DotNetAI.Application.Agents;
+using DotNetAI.Application.Models;
 
 namespace DotNetAI.Application.Orchestrators;
 
 public class AiOrchestrator
 {
-    private readonly IAiClient _aiClient;
+    private readonly IAiAgent _agent;
 
-    public AiOrchestrator(IAiClient aiClient)
+    public AiOrchestrator(IAiAgent agent)
     {
-        _aiClient = aiClient;
+        _agent = agent;
     }
 
     public AiResponse Handle(string userInput)
     {
-        var result = _aiClient.Execute(new AiRequest
-        {
-            Prompt = userInput
-        });
+        var output = _agent.Run(userInput);
 
         return new AiResponse
         {
-            Content = result.Output
+            Content = output
         };
     }
 }

@@ -2,7 +2,9 @@ using DotNetAI.AI.Abstractions;
 using DotNetAI.Application.Orchestrators;
 using DotNetAI.Infrastructure.AiClients;
 using DotNetAI.Infrastructure.Configuration;
-
+using DotNetAI.Application.Agents;
+using DotNetAI.Application.Tools;
+using DotNetAI.Application.Agents;
 var builder = WebApplication.CreateBuilder(args);
 
 // Controllers
@@ -23,6 +25,10 @@ builder.Services.AddHttpClient<IAiClient, OpenAiClient>();
 
 // Application services
 builder.Services.AddScoped<AiOrchestrator>();
+
+builder.Services.AddScoped<IAiAgent, SimpleAiAgent>();
+builder.Services.AddScoped<IAgentTool, TimeTool>();
+builder.Services.AddScoped<IAiAgent, ToolAwareAgent>();
 
 var app = builder.Build();
 
