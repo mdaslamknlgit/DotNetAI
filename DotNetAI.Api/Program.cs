@@ -33,7 +33,9 @@ builder.Services.AddScoped<AiOrchestrator>();
 builder.Services.AddScoped<IAiAgent, SimpleAiAgent>();
 builder.Services.AddScoped<IAgentTool, TimeTool>();
 builder.Services.AddScoped<IAiAgent, ToolAwareAgent>();
-builder.Services.AddSingleton<IAgentFacts, InMemoryAgentFacts>();
+//builder.Services.AddSingleton<IAgentFacts, InMemoryAgentFacts>();
+builder.Services.AddSingleton<IAgentFacts, FileAgentFacts>();
+ 
 
 builder.Services.AddSingleton<IAgentMemory, InMemoryAgentMemory>();
 

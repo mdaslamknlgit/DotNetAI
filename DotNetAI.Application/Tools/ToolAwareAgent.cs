@@ -103,7 +103,7 @@ Explain this to the user clearly.
     }
 
     // ✅ Deterministic fact extraction
-    private void ExtractFacts(string input)
+    private void ExtractFacts_Old(string input)
     {
         var text = input.Trim();
 
@@ -116,4 +116,97 @@ Explain this to the user clearly.
             }
         }
     }
+    private void ExtractFacts_Old_A(string input)
+    {
+        var text = input.Trim();
+
+        // Name
+        if (text.StartsWith("my name is ", StringComparison.OrdinalIgnoreCase))
+        {
+            var value = text.Substring(11).Trim();
+            if (!string.IsNullOrEmpty(value))
+                _facts.Set("name", value);
+
+            return;
+        }
+
+        // Father
+        if (text.StartsWith("my father name is ", StringComparison.OrdinalIgnoreCase))
+        {
+            var value = text.Substring(18).Trim();
+            if (!string.IsNullOrEmpty(value))
+                _facts.Set("father_name", value);
+
+            return;
+        }
+
+        // Mother
+        if (text.StartsWith("my mother name is ", StringComparison.OrdinalIgnoreCase))
+        {
+            var value = text.Substring(18).Trim();
+            if (!string.IsNullOrEmpty(value))
+                _facts.Set("mother_name", value);
+
+            return;
+        }
+
+        // Daughter
+        if (text.StartsWith("my daughter name is ", StringComparison.OrdinalIgnoreCase))
+        {
+            var value = text.Substring(18).Trim();
+            if (!string.IsNullOrEmpty(value))
+                _facts.Set("daughter_name", value);
+
+            return;
+        }
+
+        // Family description
+        if (text.StartsWith("my family is ", StringComparison.OrdinalIgnoreCase))
+        {
+            var value = text.Substring(13).Trim();
+            if (!string.IsNullOrEmpty(value))
+                _facts.Set("family_description", value);
+
+            return;
+        }
+
+        // Brothers count
+        if (text.StartsWith("i have ", StringComparison.OrdinalIgnoreCase) &&
+            text.Contains("brother", StringComparison.OrdinalIgnoreCase))
+        {
+            _facts.Set("brothers", text);
+            return;
+        }
+    }
+
+    private void ExtractFacts(string input)
+    {
+        var text = input.Trim();
+
+        var rules = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+    {
+        { "my name is ", "name" },
+        { "my father name is ", "father_name" },
+        { "my mother name is ", "mother_name" },
+        { "my wife name is ", "wife_name" },
+        { "my daughter name is ", "daughter_name" },
+        { "my family is ", "family_description" }
+    };
+
+        foreach (var rule in rules)
+        {
+            if (text.StartsWith(rule.Key, StringComparison.OrdinalIgnoreCase))
+            {
+                var value = text.Substring(rule.Key.Length).Trim();
+
+                if (!string.IsNullOrEmpty(value))
+                {
+                    _facts.Set(rule.Value, value);
+                }
+
+                return; // stop after first match
+            }
+        }
+    }
+
 }
