@@ -1,0 +1,11 @@
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.AI.Abstractions\bin\Debug\net10.0\DotNetAI.AI.Abstractions.deps.json
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.AI.Abstractions\bin\Debug\net10.0\DotNetAI.AI.Abstractions.dll
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.AI.Abstractions\bin\Debug\net10.0\DotNetAI.AI.Abstractions.pdb
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.AI.Abstractions\obj\Debug\net10.0\DotNetAI.AI.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.AI.Abstractions\obj\Debug\net10.0\DotNetAI.AI.Abstractions.AssemblyInfoInputs.cache
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.AI.Abstractions\obj\Debug\net10.0\DotNetAI.AI.Abstractions.AssemblyInfo.cs
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.AI.Abstractions\obj\Debug\net10.0\DotNetAI.AI.Abstractions.csproj.CoreCompileInputs.cache
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.AI.Abstractions\obj\Debug\net10.0\DotNetAI.AI.Abstractions.dll
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.AI.Abstractions\obj\Debug\net10.0\refint\DotNetAI.AI.Abstractions.dll
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.AI.Abstractions\obj\Debug\net10.0\DotNetAI.AI.Abstractions.pdb
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.AI.Abstractions\obj\Debug\net10.0\ref\DotNetAI.AI.Abstractions.dll

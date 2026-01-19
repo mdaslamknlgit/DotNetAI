@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{201B7AF7-00AA-4870-A6C3-546F629B64CD}|DotNetAI.Blazor\\DotNetAI.Blazor.csproj|d:\\mdaslam\\net\\ai\\code\\dotnetai\\dotnetai.blazor\\components\\pages\\aichat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{201B7AF7-00AA-4870-A6C3-546F629B64CD}|DotNetAI.Blazor\\DotNetAI.Blazor.csproj|solutionrelative:dotnetai.blazor\\components\\pages\\aichat.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201B7AF7-00AA-4870-A6C3-546F629B64CD}|DotNetAI.Blazor\\DotNetAI.Blazor.csproj|d:\\mdaslam\\net\\ai\\code\\dotnetai\\dotnetai.blazor\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{201B7AF7-00AA-4870-A6C3-546F629B64CD}|DotNetAI.Blazor\\DotNetAI.Blazor.csproj|solutionrelative:dotnetai.blazor\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 463,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.css",
+              "DocumentMoniker": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Blazor\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "DotNetAI.Blazor\\wwwroot\\app.css",
+              "ToolTip": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Blazor\\wwwroot\\app.css",
+              "RelativeToolTip": "DotNetAI.Blazor\\wwwroot\\app.css",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAcwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-19T05:36:47.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AiChat.razor",
+              "DocumentMoniker": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Blazor\\Components\\Pages\\AiChat.razor",
+              "RelativeDocumentMoniker": "DotNetAI.Blazor\\Components\\Pages\\AiChat.razor",
+              "ToolTip": "D:\\MdAslam\\NET\\AI\\Code\\DotNetAI\\DotNetAI.Blazor\\Components\\Pages\\AiChat.razor",
+              "RelativeToolTip": "DotNetAI.Blazor\\Components\\Pages\\AiChat.razor",
+              "ViewState": "AgIAACgAAAAAAAAAAAAIwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-19T05:32:31.462Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 259,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 226,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

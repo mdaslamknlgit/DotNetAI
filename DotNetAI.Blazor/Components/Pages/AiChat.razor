@@ -1,0 +1,66 @@
+﻿@page "/ai"
+@rendermode InteractiveServer
+@using DotNetAI.Blazor.Services
+@inject AiApiClient ApiClient
+
+<div class="chat-container">
+    <div class="chat-header">DotNetAI Chat</div>
+
+    <div class="chat-body" @ref="chatBody">
+        @foreach (var msg in messages)
+        {
+            <div class="chat-message @(msg.IsUser ? "user" : "ai")">
+                @((MarkupString)msg.Text)
+            </div>
+        }
+    </div>
+
+    <div class="chat-input">
+        <textarea @bind="prompt"
+                  @bind:event="oninput"
+                  placeholder="Message DotNetAI…"
+                  @onkeydown="HandleKey">
+        </textarea>
+
+        <button @onclick="Ask">Send</button>
+    </div>
+</div>
+
+@code {
+    private string prompt = string.Empty;
+    private List<ChatMessage> messages = new();
+    private ElementReference chatBody;
+
+    private async Task Ask()
+    {
+        if (string.IsNullOrWhiteSpace(prompt))
+            return;
+
+        messages.Add(new ChatMessage(Escape(prompt), true));
+
+        var result = await ApiClient.AskAsync(prompt);
+
+        messages.Add(new ChatMessage(Format(result?.Content), false));
+
+        prompt = string.Empty;
+    }
+
+    private async Task HandleKey(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter" && e.CtrlKey)
+        {
+            await Ask();
+        }
+    }
+
+    private static string Escape(string text)
+        => text.Replace("<", "&lt;").Replace(">", "&gt;");
+
+    private static string Format(string? text)
+        => string.IsNullOrWhiteSpace(text)
+            ? "No response"
+            : text.Replace("\n\n", "<br/><br/>")
+                  .Replace("\n", "<br/>");
+
+    private record ChatMessage(string Text, bool IsUser);
+}

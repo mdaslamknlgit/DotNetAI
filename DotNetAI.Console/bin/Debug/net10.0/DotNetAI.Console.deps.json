@@ -1,0 +1,72 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "DotNetAI.Console/1.0.0": {
+        "dependencies": {
+          "DotNetAI.Application": "1.0.0",
+          "DotNetAI.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "DotNetAI.Console.dll": {}
+        }
+      },
+      "DotNetAI.AI.Abstractions/1.0.0": {
+        "runtime": {
+          "DotNetAI.AI.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DotNetAI.Application/1.0.0": {
+        "dependencies": {
+          "DotNetAI.AI.Abstractions": "1.0.0"
+        },
+        "runtime": {
+          "DotNetAI.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DotNetAI.Infrastructure/1.0.0": {
+        "dependencies": {
+          "DotNetAI.AI.Abstractions": "1.0.0"
+        },
+        "runtime": {
+          "DotNetAI.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotNetAI.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNetAI.AI.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNetAI.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNetAI.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

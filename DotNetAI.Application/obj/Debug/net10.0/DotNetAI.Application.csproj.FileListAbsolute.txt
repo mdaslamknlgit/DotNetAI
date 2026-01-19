@@ -1,0 +1,15 @@
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\bin\Debug\net10.0\DotNetAI.Application.deps.json
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\bin\Debug\net10.0\DotNetAI.Application.dll
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\bin\Debug\net10.0\DotNetAI.Application.pdb
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\bin\Debug\net10.0\DotNetAI.AI.Abstractions.dll
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\bin\Debug\net10.0\DotNetAI.AI.Abstractions.pdb
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\obj\Debug\net10.0\DotNetAI.Application.csproj.AssemblyReference.cache
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\obj\Debug\net10.0\DotNetAI.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\obj\Debug\net10.0\DotNetAI.Application.AssemblyInfoInputs.cache
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\obj\Debug\net10.0\DotNetAI.Application.AssemblyInfo.cs
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\obj\Debug\net10.0\DotNetAI.Application.csproj.CoreCompileInputs.cache
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\obj\Debug\net10.0\DotNetAI.66D8AE8A.Up2Date
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\obj\Debug\net10.0\DotNetAI.Application.dll
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\obj\Debug\net10.0\refint\DotNetAI.Application.dll
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\obj\Debug\net10.0\DotNetAI.Application.pdb
+D:\MdAslam\NET\AI\Code\DotNetAI\DotNetAI.Application\obj\Debug\net10.0\ref\DotNetAI.Application.dll
