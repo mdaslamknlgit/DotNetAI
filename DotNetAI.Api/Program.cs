@@ -5,6 +5,10 @@ using DotNetAI.Infrastructure.Configuration;
 using DotNetAI.Application.Agents;
 using DotNetAI.Application.Tools;
 using DotNetAI.Application.Agents;
+
+using DotNetAI.Application.Memory;
+using DotNetAI.Infrastructure.Memory;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Controllers
@@ -29,6 +33,7 @@ builder.Services.AddScoped<AiOrchestrator>();
 builder.Services.AddScoped<IAiAgent, SimpleAiAgent>();
 builder.Services.AddScoped<IAgentTool, TimeTool>();
 builder.Services.AddScoped<IAiAgent, ToolAwareAgent>();
+builder.Services.AddScoped<IAgentMemory, InMemoryAgentMemory>();
 
 var app = builder.Build();
 

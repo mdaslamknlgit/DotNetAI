@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DotNetAI.AI.Abstractions\DotNetAI.AI.Abstractions.csproj" />
+    <ProjectReference Include="..\DotNetAI.Application\DotNetAI.Application.csproj" />
   </ItemGroup>
 
 </Project>

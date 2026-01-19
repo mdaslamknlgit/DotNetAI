@@ -3,5 +3,5 @@
 **/obj/
 *.user
 *.suo
-*.cache
-*.log
+*.pdb
+*.dll
